@@ -1,0 +1,3 @@
+SELECT AVG(danceability) AS avg_danceability, AVG(energy) AS avg_energy, AVG(valence) AS avg_valence FROM songs;
+
+Essa abordagem simples pode não ser muito representativa do ouvinte porque Músicas de um gênero específico podem dominar as 100 músicas mais tocadas, influenciando a média, mesmo que o ouvinte tenha gostos mais variados.
