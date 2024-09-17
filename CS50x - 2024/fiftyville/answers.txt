@@ -1,0 +1,10 @@
+The THIEF is: Bruce
+The city the thief ESCAPED TO: New York City
+The ACCOMPLICE is: Robin
+
+Humphrey Street - Theft of the CS50 duck took place at 10:15am at the Humphrey Street bakery. Interviews were conducted today with three witnesses who were present at the time – each of their interview transcripts mentions the bakery.
+
+161 Ruth: car in the bakery parking lot 10 minutes after theft 10:25am (28/07/2023) - security footage from the bakery parking lot
+162 Eugene: Eugene reconized the thief - thief there withdrawing some money at Leggett Street (28/07/2023)
+163 Raymond: call other person buy flight ticket after 10:15am - planning to take the earliest flight out of Fiftyville tomorrow (29/07/2023)
+

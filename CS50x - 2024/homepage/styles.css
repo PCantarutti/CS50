@@ -1,0 +1,37 @@
+img {
+    width: 300px;
+}
+
+.card {
+    width: 500px;
+    text-align: center;
+}
+
+strong {
+    color: #d0166d;
+}
+
+.title {
+    text-align: center;
+    margin: 50px;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.paragrafo {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem {
+    width: 80vw;
+    height: 90vh;
+}
