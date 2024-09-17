@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+
+                let corretos = document.querySelectorAll('.correto');
+                for (let i = 0; i < corretos.length; i++) {
+                    corretos[i].addEventListener('click', function() {
+
+                        corretos[i].style.backgroundColor = 'Green';
+
+                        corretos[i].parentElement.querySelector('.feedback').innerHTML = 'Correto!';
+                    });
+                    let incorretos = document.querySelectorAll('.incorreto');
+                    for (let i = 0; i < incorretos.length; i++) {
+                        incorretos[i].addEventListener('click', function() {
+                            incorretos[i].style.backgroundColor = 'red';
+
+                            incorretos[i].parentElement.querySelector('.feedback').innerHTML = 'Incorreto!';
+                        });
+                    }
+                    document.querySelector('#check').addEventListener('click', function() {
+                        let input = document.querySelector('input');
+                        if (input.value === 'Noble') {
+                            input.style.backgroundColor = 'green';
+                            input.parentElement.querySelector('.feedback').innerHTML = 'Correto!';
+                        } else {
+                            input.style.backgroundColor = 'red';
+                            input.parentElement.querySelector('.feedback').innerHTML = 'Incorreto';
+                        }
+                    });
+                }
+            });
+        </script>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>
+                    Qual planeta da série de jogos HALO foi alvo de ataque covenant antes do primeiro jogo da saga?
+                </h3>
+                <button class="incorreto">Marte</button>
+                <button class="correto">Reach</button>
+                <button class="incorreto">Terra</button>
+                <button class="incorreto">Madrigal</button>
+                <p class="feedback"></p>
+            </div>
+
+            <div class="section form">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>
+                    Qual é o nome do time de spartans do jogo prequel de HALO 1
+                </h3>
+                <input autocomplete="off" id='resposta' type="text"></input>
+                <button id='check'>Checar resposta</button>
+                <p class="feedback"></p>
+            </div>
+        </div>
+    </body>
+
+</html>
