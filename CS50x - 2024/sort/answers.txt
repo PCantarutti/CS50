@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: the time used in sorted is way les than reversed and random
+
+sort2 uses: merge sort
+
+How do you know?: the time spent on all lists of the same quantity is the same, and also very little time spent compared to other methods
+
+sort3 uses: Selection sort
+
+How do you know?: the time spent on all lists of the same quantity is the same, but more time spent than the sort2 method
